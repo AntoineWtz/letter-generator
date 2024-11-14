@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import UserProfile from './pages/UserProfile';
 import Form from './components/Form';
@@ -7,7 +7,7 @@ import Header from './components/Header';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <div>
       <Header />
       <div className="flex flex-col items-center min-h-screen p-6 bg-gray-100">
         <Routes>
@@ -16,7 +16,7 @@ const App: React.FC = () => {
           <Route path="/create-letter" element={<Form />} />
         </Routes>
       </div>
-    </Router>
+    </div>
   );
 };
 
