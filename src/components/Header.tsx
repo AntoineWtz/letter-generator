@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaUserCircle } from 'react-icons/fa';
 
 const Header: React.FC = () => {
-    const userCoordinates = JSON.parse(localStorage.getItem("userCoordinates") || "{}");
 
     return (
         <header className="w-full p-4 bg-gray-800 text-white flex items-center justify-around">
