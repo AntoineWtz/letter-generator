@@ -14,6 +14,7 @@ const Header: React.FC = () => {
             {/* Barre de navigation */}
             <nav className="flex space-x-4">
                 <Link to="/" className="hover:text-gray-200">Accueil</Link>
+                <Link to="/profile">Profil</Link>
                 {/* <Link to="/about" className="hover:text-gray-200">À propos</Link>
                 <Link to="/features" className="hover:text-gray-200">Fonctionnalités</Link> */}
             </nav>

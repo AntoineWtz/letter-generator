@@ -56,7 +56,7 @@ const Form: React.FC = () => {
                 </Link>
 
                 <button onClick={handleGeneratePDF} className="bg-blue-500 text-white p-2 rounded w-48 hover:bg-blue-600 text-center m-2">
-                    Générer le PDF
+                    Générer PDF
                 </button>
             </div>
         </div>
