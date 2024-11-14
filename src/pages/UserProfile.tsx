@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 const UserProfile: React.FC = () => {
@@ -20,7 +21,7 @@ const UserProfile: React.FC = () => {
         }
     }, []);
 
-    // Sauvegarder les informations mises à jour dans le localStorage
+    // Sauvegarder les informations dans le localStorage
     const handleSave = () => {
         const updatedCoordinates = {
             name,
@@ -35,7 +36,8 @@ const UserProfile: React.FC = () => {
 
     return (
         <div className="p-8 bg-white rounded shadow-md max-w-md mx-auto">
-            <h2 className="text-2xl font-bold mb-6">Modifier les informations de profil</h2>
+            <h2 className="text-2xl font-bold mb-6">Informations de profil</h2>
+            <p className="text-md font-thin mb-6">Saisissez les informations qui apparaitront sur le document généré.</p>
             <label className="block mb-4">
                 Nom :
                 <input
@@ -72,13 +74,23 @@ const UserProfile: React.FC = () => {
                     className="mt-1 p-2 border rounded w-full"
                 />
             </label>
-            <button
-                onClick={handleSave}
-                className="bg-blue-500 text-white p-2 rounded w-full mt-4 hover:bg-blue-600"
-            >
-                Sauvegarder les modifications
-            </button>
-        </div>
+
+            <div className="flex justify-between mt-6">
+                <Link
+                    to="/"
+                    className="bg-red-500 text-white p-2 rounded w-48 hover:bg-red-600 text-center m-2"
+                >
+                    Retour
+                </Link>
+
+                <button
+                    onClick={handleSave}
+                    className="bg-blue-500 text-white p-2 rounded w-48 hover:bg-blue-600 text-center m-2"
+                >
+                    Sauvegarder
+                </button>
+            </div>
+        </div >
     );
 };
 
