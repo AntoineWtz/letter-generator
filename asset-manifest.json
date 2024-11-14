@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/letter-generator/static/css/main.879f402a.css",
-    "main.js": "/letter-generator/static/js/main.d902dfaa.js",
+    "main.js": "/letter-generator/static/js/main.80b7d7b8.js",
     "static/js/239.d6bdf27c.chunk.js": "/letter-generator/static/js/239.d6bdf27c.chunk.js",
     "static/js/213.0ccf01d8.chunk.js": "/letter-generator/static/js/213.0ccf01d8.chunk.js",
     "static/js/732.78c35da2.chunk.js": "/letter-generator/static/js/732.78c35da2.chunk.js",
     "static/js/453.305bfa6e.chunk.js": "/letter-generator/static/js/453.305bfa6e.chunk.js",
     "index.html": "/letter-generator/index.html",
     "main.879f402a.css.map": "/letter-generator/static/css/main.879f402a.css.map",
-    "main.d902dfaa.js.map": "/letter-generator/static/js/main.d902dfaa.js.map",
+    "main.80b7d7b8.js.map": "/letter-generator/static/js/main.80b7d7b8.js.map",
     "239.d6bdf27c.chunk.js.map": "/letter-generator/static/js/239.d6bdf27c.chunk.js.map",
     "213.0ccf01d8.chunk.js.map": "/letter-generator/static/js/213.0ccf01d8.chunk.js.map",
     "732.78c35da2.chunk.js.map": "/letter-generator/static/js/732.78c35da2.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.879f402a.css",
-    "static/js/main.d902dfaa.js"
+    "static/js/main.80b7d7b8.js"
   ]
 }
