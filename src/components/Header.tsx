@@ -6,9 +6,9 @@ const Header: React.FC = () => {
     const userCoordinates = JSON.parse(localStorage.getItem("userCoordinates") || "{}");
 
     return (
-        <header className="w-full p-4 bg-blue-600 text-white flex items-center justify-around">
+        <header className="w-full p-4 bg-gray-800 text-white flex items-center justify-around">
             {/* Logo ou Titre */}
-            <Link to="/" className="text-2xl font-bold text-white hover:text-gray-200">
+            <Link to="/" className="text-2xl font-bold">
                 Letter App
             </Link>
 

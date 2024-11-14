@@ -12,20 +12,39 @@ const PDFPreview = ({ company, subject, content }: PDFPreviewProps) => {
     const doc = new jsPDF();
     doc.setFontSize(12);
 
-    // Coordonnées de l’utilisateur
-    doc.text(userCoordinates.name || '', 10, 10);
-    doc.text(userCoordinates.address || '', 10, 20);
-    doc.text(userCoordinates.phone || '', 10, 30);
-    doc.text(userCoordinates.email || '', 10, 40);
+    // Coordonnées utilisateur
+    doc.text(userCoordinates.name || '', 20, 15);
+    doc.text(userCoordinates.address || '', 20, 20);
+    doc.text(userCoordinates.phone || '', 20, 25);
+    doc.text(userCoordinates.email || '', 20, 30);
 
-    // Infos de la société et objet
-    doc.text(`Société : ${company}`, 10, 60);
-    doc.text(`Objet : ${subject}`, 10, 70);
+    // Infos Destinataire
+    const pageWidth = doc.internal.pageSize.width;
+    const companyName = company;
+    doc.text(company, pageWidth - 20 - doc.getTextWidth(companyName), 50);
+
+    // Date
+    const currentDate = new Date().toLocaleDateString();
+    doc.text(currentDate, pageWidth - 20 - doc.getTextWidth(currentDate), 60);
+
+    // Objet
+    doc.text(`Objet : ${subject}`, 30, 70);
 
     // Contenu de la lettre
-    doc.text(content, 10, 90, { maxWidth: 180 });
+    const contentStartY = 80;
+    const contentLines = doc.splitTextToSize(content, 180); // Découpe le contenu en lignes
+    doc.text(contentLines, 20, contentStartY);
 
-    doc.save('Lettre_de_motivation.pdf');
+    // Calculer la hauteur totale du contenu
+    const contentHeight = contentLines.length * 5; // Estimation de la hauteur du contenu
+
+    // Signature
+    const signatureY = contentStartY + contentHeight + 10;
+    const senderName = userCoordinates.name;
+    doc.text(senderName, pageWidth - 40 - doc.getTextWidth(senderName), signatureY);
+
+    // Save document
+    doc.save('Lettre.pdf');
 };
 
 export default PDFPreview;
