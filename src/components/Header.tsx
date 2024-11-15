@@ -1,41 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaUserCircle } from 'react-icons/fa';
 
 const Header: React.FC = () => {
-
     return (
-        <header className="w-full p-4 bg-gray-800 text-white flex items-center justify-around">
-            {/* Logo ou Titre */}
-            <Link to="/" className="text-2xl font-bold">
-                Letter App
-            </Link>
-
-            {/* Barre de navigation */}
-            <nav className="flex space-x-4">
-                <Link to="/" className="hover:text-gray-200">Accueil</Link>
-                {/* <Link to="/about" className="hover:text-gray-200">À propos</Link>
-                <Link to="/features" className="hover:text-gray-200">Fonctionnalités</Link> */}
+        <header className="w-full bg-primary text-white shadow-md">
+            <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+                <div className="text-2xl font-bold"><Link to="/">Letter App</Link></div>
+                <div className="space-x-6">
+                    <Link
+                        to="/"
+                        className="hover:text-accent transition duration-300"
+                    >
+                        Accueil
+                    </Link>
+                    <Link
+                        to="/profile"
+                        className="hover:text-accent transition duration-300"
+                    >
+                        Profil
+                    </Link>
+                    <Link
+                        to="/create-letter"
+                        className="bg-secondary py-2 px-4 rounded-lg hover:bg-accent hover:text-black transition duration-300"
+                    >
+                        Créer une lettre
+                    </Link>
+                </div>
             </nav>
-
-            {/* Icône de profil */}
-            <div className="relative">
-                <Link to="/profile" className="hover:text-gray-200">
-                    <FaUserCircle size={28} />
-                </Link>
-                {/* {userCoordinates.name && (
-                    <div className="absolute right-0 mt-2 w-48 bg-white text-blue-600 rounded shadow-lg p-4">
-                        <p className="font-bold">{userCoordinates.name}</p>
-                        <p className="text-sm">{userCoordinates.email}</p>
-                        <Link
-                            to="/profile"
-                            className="mt-2 block text-center text-blue-600 underline hover:text-blue-800"
-                        >
-                            Modifier les informations
-                        </Link>
-                    </div>
-                )} */}
-            </div>
         </header>
     );
 };
