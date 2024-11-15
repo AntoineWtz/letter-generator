@@ -65,7 +65,7 @@ const UserProfile: React.FC = () => {
                 </label>
             ))}
 
-            <div className="flex justify-between mt-8">
+            <div className="flex items-center justify-between mt-8">
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                     <Link
                         to="/"
