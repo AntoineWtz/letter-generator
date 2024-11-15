@@ -10,13 +10,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router basename="/letter-generator">  {/* Remplacez "mon-portfolio" par le nom de votre dépôt GitHub */}
+    <Router basename="/letter-generator">
       <App />
     </Router>
   </React.StrictMode>
 );
 
-// Si vous voulez commencer à mesurer la performance de votre application, passez une fonction
-// pour enregistrer les résultats (par exemple : reportWebVitals(console.log))
-// ou envoyez-les vers un point de terminaison analytique.
 reportWebVitals();
