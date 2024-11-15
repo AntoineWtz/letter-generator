@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/letter-generator/static/css/main.5e91fbd1.css",
-    "main.js": "/letter-generator/static/js/main.cc3de517.js",
+    "main.css": "/letter-generator/static/css/main.f4db9344.css",
+    "main.js": "/letter-generator/static/js/main.8541e8f5.js",
     "static/js/239.d6bdf27c.chunk.js": "/letter-generator/static/js/239.d6bdf27c.chunk.js",
     "static/js/213.0ccf01d8.chunk.js": "/letter-generator/static/js/213.0ccf01d8.chunk.js",
     "static/js/732.78c35da2.chunk.js": "/letter-generator/static/js/732.78c35da2.chunk.js",
@@ -25,15 +25,15 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/letter-generator/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/letter-generator/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/letter-generator/index.html",
-    "main.5e91fbd1.css.map": "/letter-generator/static/css/main.5e91fbd1.css.map",
-    "main.cc3de517.js.map": "/letter-generator/static/js/main.cc3de517.js.map",
+    "main.f4db9344.css.map": "/letter-generator/static/css/main.f4db9344.css.map",
+    "main.8541e8f5.js.map": "/letter-generator/static/js/main.8541e8f5.js.map",
     "239.d6bdf27c.chunk.js.map": "/letter-generator/static/js/239.d6bdf27c.chunk.js.map",
     "213.0ccf01d8.chunk.js.map": "/letter-generator/static/js/213.0ccf01d8.chunk.js.map",
     "732.78c35da2.chunk.js.map": "/letter-generator/static/js/732.78c35da2.chunk.js.map",
     "453.305bfa6e.chunk.js.map": "/letter-generator/static/js/453.305bfa6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e91fbd1.css",
-    "static/js/main.cc3de517.js"
+    "static/css/main.f4db9344.css",
+    "static/js/main.8541e8f5.js"
   ]
 }
