@@ -1,21 +1,39 @@
 {
   "files": {
-    "main.css": "/letter-generator/static/css/main.879f402a.css",
-    "main.js": "/letter-generator/static/js/main.80b7d7b8.js",
+    "main.css": "/letter-generator/static/css/main.ee004551.css",
+    "main.js": "/letter-generator/static/js/main.d0fad191.js",
     "static/js/239.d6bdf27c.chunk.js": "/letter-generator/static/js/239.d6bdf27c.chunk.js",
     "static/js/213.0ccf01d8.chunk.js": "/letter-generator/static/js/213.0ccf01d8.chunk.js",
     "static/js/732.78c35da2.chunk.js": "/letter-generator/static/js/732.78c35da2.chunk.js",
     "static/js/453.305bfa6e.chunk.js": "/letter-generator/static/js/453.305bfa6e.chunk.js",
+    "static/media/inter-latin-ext-400-normal.woff": "/letter-generator/static/media/inter-latin-ext-400-normal.1c20f7dc20d731a18fcd.woff",
+    "static/media/inter-latin-400-normal.woff": "/letter-generator/static/media/inter-latin-400-normal.b0c8fe9db56dd415a25a.woff",
+    "static/media/inter-latin-ext-400-normal.woff2": "/letter-generator/static/media/inter-latin-ext-400-normal.3d10c85fbd16969509a2.woff2",
+    "static/media/inter-latin-400-normal.woff2": "/letter-generator/static/media/inter-latin-400-normal.9698cc7dbf147ed363b6.woff2",
+    "static/media/inter-cyrillic-ext-400-normal.woff": "/letter-generator/static/media/inter-cyrillic-ext-400-normal.e89451624c6caf35687f.woff",
+    "static/media/poppins-latin-400-normal.woff": "/letter-generator/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/inter-cyrillic-ext-400-normal.woff2": "/letter-generator/static/media/inter-cyrillic-ext-400-normal.fd1478dcc74de00ee4c0.woff2",
+    "static/media/inter-cyrillic-400-normal.woff": "/letter-generator/static/media/inter-cyrillic-400-normal.e2841352dd9512ff455b.woff",
+    "static/media/inter-greek-400-normal.woff": "/letter-generator/static/media/inter-greek-400-normal.a42da273bb968bf2058d.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/letter-generator/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/inter-greek-400-normal.woff2": "/letter-generator/static/media/inter-greek-400-normal.a8de720a6f13c66c8a4e.woff2",
+    "static/media/inter-cyrillic-400-normal.woff2": "/letter-generator/static/media/inter-cyrillic-400-normal.cb04b2ee2f7d192478b8.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/letter-generator/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
+    "static/media/inter-greek-ext-400-normal.woff": "/letter-generator/static/media/inter-greek-ext-400-normal.b9e1e89444a313a63b91.woff",
+    "static/media/inter-vietnamese-400-normal.woff": "/letter-generator/static/media/inter-vietnamese-400-normal.96f8adc74b63e1a3655f.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/letter-generator/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
+    "static/media/inter-greek-ext-400-normal.woff2": "/letter-generator/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
+    "static/media/inter-vietnamese-400-normal.woff2": "/letter-generator/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/letter-generator/index.html",
-    "main.879f402a.css.map": "/letter-generator/static/css/main.879f402a.css.map",
-    "main.80b7d7b8.js.map": "/letter-generator/static/js/main.80b7d7b8.js.map",
+    "main.ee004551.css.map": "/letter-generator/static/css/main.ee004551.css.map",
+    "main.d0fad191.js.map": "/letter-generator/static/js/main.d0fad191.js.map",
     "239.d6bdf27c.chunk.js.map": "/letter-generator/static/js/239.d6bdf27c.chunk.js.map",
     "213.0ccf01d8.chunk.js.map": "/letter-generator/static/js/213.0ccf01d8.chunk.js.map",
     "732.78c35da2.chunk.js.map": "/letter-generator/static/js/732.78c35da2.chunk.js.map",
     "453.305bfa6e.chunk.js.map": "/letter-generator/static/js/453.305bfa6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.879f402a.css",
-    "static/js/main.80b7d7b8.js"
+    "static/css/main.ee004551.css",
+    "static/js/main.d0fad191.js"
   ]
 }
