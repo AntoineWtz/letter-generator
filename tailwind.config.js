@@ -9,12 +9,15 @@ module.exports = {
         heading: ['Poppins', 'sans-serif'],
       },
       colors: {
-        primary: "#4f46e5", // Bleu moderne
-        secondary: "#6d28d9", // Violet foncé
-        accent: "#facc15", // Jaune doré
-        neutral: "#64748b", // Gris bleuté
-        background: "#f9fafb", // Fond clair
-        danger: "#ef4444", // Rouge vif
+        primary: "#000000", // Noir profond
+        secondary: "#00c9c8", // Cyan vibrant
+        accent: "#bffcf9", // Bleu pâle clair
+        neutral: "#47817f", // Gris-vert foncé
+        background: "#f3f4f6", // Fond clair pour le contraste
+        danger: "#dc2626", // Rouge vif pour les alertes
+        success: "#16a34a", // Vert vif pour les réussites
+        info: "#6b7280", // Gris doux pour les informations
+        warning: "#f97316", // Orange pour les avertissements
       },
     },
   },

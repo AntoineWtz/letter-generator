@@ -70,7 +70,7 @@ const Form: React.FC = () => {
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                     <button
                         onClick={handleGeneratePDF}
-                        className="bg-indigo-600 text-white py-3 px-6 rounded-lg hover:bg-indigo-500 transition"
+                        className="bg-primary text-white py-3 px-6 rounded-lg hover:bg-secondary transition"
                     >
                         Générer PDF
                     </button>

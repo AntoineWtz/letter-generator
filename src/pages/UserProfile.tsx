@@ -43,11 +43,11 @@ const UserProfile: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="bg-white p-8 rounded-lg shadow-lg max-w-2xl mx-auto mt-12"
         >
-            <h2 className="text-3xl font-bold text-primary mb-4">Informations de profil</h2>
-            <p className="text-md text-gray-600 mb-6">Saisissez les informations qui apparaîtront sur le document généré.</p>
+            <h2 className="text-3xl font-heading font-bold text-gray-800 mb-4 text-center">Informations de profil</h2>
+            <p className="text-md text-gray-600 mb-6 text-center">Saisissez les informations qui apparaîtront sur le document généré.</p>
             {["Nom", "Adresse", "Email", "Téléphone"].map((label, idx) => (
-                <label key={idx} className="block mb-4">
-                    <span className="text-gray-700">{label} :</span>
+                <div key={idx}>
+                    <label className="block font-bold text-gray-700 mb-2">{label}</label>
                     <input
                         type={label === "Email" ? "email" : label === "Téléphone" ? "tel" : "text"}
                         value={label === "Nom" ? name : label === "Adresse" ? address : label === "Email" ? email : phone}
@@ -60,9 +60,9 @@ const UserProfile: React.FC = () => {
                                         ? setEmail(e.target.value)
                                         : setPhone(e.target.value)
                         }
-                        className="mt-2 p-3 w-full rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent"
+                        className="w-full p-3 mb-4 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     />
-                </label>
+                </div>
             ))}
 
             <div className="flex items-center justify-between mt-8">

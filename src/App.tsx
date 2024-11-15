@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import UserProfile from './pages/UserProfile';
 import Form from './components/Form';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const location = useLocation();
@@ -21,6 +22,7 @@ const App: React.FC = () => {
           </Routes>
         </AnimatePresence>
       </div>
+      <Footer />
     </div>
   );
 };

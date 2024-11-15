@@ -21,7 +21,7 @@ const Header: React.FC = () => {
                     </Link>
                     <Link
                         to="/create-letter"
-                        className="bg-secondary py-2 px-4 rounded-lg hover:bg-accent transition duration-300"
+                        className="bg-secondary py-2 px-4 rounded-lg hover:bg-accent hover:text-black transition duration-300"
                     >
                         Créer une lettre
                     </Link>
