@@ -11,10 +11,10 @@ const HomePage: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center px-4 py-10 min-h-screen flex flex-col items-center justify-center"
         >
-            <h1 className="text-5xl font-heading font-bold mb-8 text-primary">
+            <h1 className="text-3xl sm:text-5xl font-heading font-bold mb-8 text-primary">
                 Bienvenue sur votre générateur de lettres
             </h1>
-            <p className="text-xl font-sans font-thin mb-8 text-gray-600">
+            <p className="text-base sm:text-xl font-sans font-thin mb-8 text-gray-600">
                 Ajoutez vos informations dans votre espace pour créer simplement et rapidement toutes vos lettres.
             </p>
             <motion.div
@@ -23,7 +23,7 @@ const HomePage: React.FC = () => {
             >
                 <Link
                     to="/create-letter"
-                    className="bg-primary text-xl font-bold text-white px-6 py-3 rounded-xl hover:bg-secondary transition duration-300"
+                    className="bg-primary text-md sm:text-xl font-bold text-white px-6 py-3 rounded-xl hover:bg-secondary transition duration-300"
                 >
                     Créer une lettre
                 </Link>

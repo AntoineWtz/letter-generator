@@ -43,11 +43,11 @@ const UserProfile: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="bg-white p-8 rounded-lg shadow-lg max-w-2xl mx-auto mt-12"
         >
-            <h2 className="text-3xl font-heading font-bold text-gray-800 mb-4 text-center">Informations de profil</h2>
-            <p className="text-md text-gray-600 mb-6 text-center">Saisissez les informations qui apparaîtront sur le document généré.</p>
+            <h2 className="text-2xl sm:text-3xl font-heading font-bold text-gray-800 mb-4 text-center">Informations de profil</h2>
+            <p className="text-sm sm:text-md text-gray-600 mb-6 text-center">Saisissez les informations qui apparaîtront sur le document généré.</p>
             {["Nom", "Adresse", "Email", "Téléphone"].map((label, idx) => (
                 <div key={idx}>
-                    <label className="block font-bold text-gray-700 mb-2">{label}</label>
+                    <label className="block text-sm sm:text-base font-bold text-gray-700 mb-2">{label}</label>
                     <input
                         type={label === "Email" ? "email" : label === "Téléphone" ? "tel" : "text"}
                         value={label === "Nom" ? name : label === "Adresse" ? address : label === "Email" ? email : phone}
